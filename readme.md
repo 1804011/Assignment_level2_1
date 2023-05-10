@@ -9,3 +9,13 @@ Typescript is a superset of javascript and offer static typing rather than dynam
 1)type alias is more suitable for function and simple data type whereas interface is suitable for object data
 2)type alias can't be extended but interface can be extended to inherit properties from parent
 3)typescript compiler merge the interface with similar name.but type alias produce error.
+
+## Can you give an example of how to use generics in TypeScript?
+Generic is used to define  single type alias or interfaces or function and use it for different types of data. for example,
+              ```
+               type Person<T>{
+                   name:string;
+                   address:T;
+               }
+                
+              ```
