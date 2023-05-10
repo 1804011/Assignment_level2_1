@@ -12,10 +12,10 @@ Typescript is a superset of javascript and offer static typing rather than dynam
 
 ## Can you give an example of how to use generics in TypeScript?
 Generic is used to define  single type alias or interfaces or function and use it for different types of data. for example,
-              ```
-               type Person<T>{
+ 
+  type Person<T>=
+               {
                    name:string;
                    address:T;
                }
-                
-              ```
+
