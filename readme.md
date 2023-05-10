@@ -19,3 +19,9 @@ Generic is used to define  single type alias or interfaces or function and use i
                    address:T;
                }
 
+
+## Difference between any and unknown
+ 
+ unknown type is the type safe counterpart of any type.everything can be assigned to unknown.But unknown isn't assignable to any.The main difference is in term of semantic.
+
+
