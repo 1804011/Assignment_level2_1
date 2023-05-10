@@ -13,11 +13,12 @@ Typescript is a superset of javascript and offer static typing rather than dynam
 ## Can you give an example of how to use generics in TypeScript?
 Generic is used to define  single type alias or interfaces or function and use it for different types of data. for example,
  
-  type Person<T>=
+  type Person &lt;T&gt;=
                {
                    name:string;
                    address:T;
                }
+               
 
 
 ## Difference between any and unknown
@@ -25,3 +26,14 @@ Generic is used to define  single type alias or interfaces or function and use i
  unknown type is the type safe counterpart of any type.everything can be assigned to unknown.But unknown isn't assignable to any.The main difference is in term of semantic.
 
 
+## enum in typescript
+
+We can use enum to define some predefined constant which can be used later.
+for example,
+           enum Gender{
+            male,female
+           }
+           const gender:Gender=Gender.male;
+
+           Here,male=0,female=1;
+            so const gender is assigned value 0;
