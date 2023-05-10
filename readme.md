@@ -30,10 +30,13 @@ Generic is used to define  single type alias or interfaces or function and use i
 
 We can use enum to define some predefined constant which can be used later.
 for example,
+         <pre>
            enum Gender{
             male,female
            }
+    
            const gender:Gender=Gender.male;
-
+      
            Here,male=0,female=1;
-            so const gender is assigned value 0;
+            so const gender is assigned value 0
+         
